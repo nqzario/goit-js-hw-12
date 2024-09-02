@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>12</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <form class="d-flex align-items-center justify-content-center search-form">
+    <div class="form-group m-3">
+      <input type="text" class="form-control" name="query" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  
+  <span class="loader position is-hidden"></span>
+  <div class="card-container"></div>
+
+  <button class="button-loader is-hidden">
+    <span class="loader-text ">Load more</span>
+  </button>
+  <script src="./main.js" type="module" defer></script>
+</body>
+
+</html>
